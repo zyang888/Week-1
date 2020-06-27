@@ -1,0 +1,36 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "tdd": "jest --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Week-1.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Week-1/issues"
+  },
+  "homepage": "https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Week-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-date-mock": "^1.0.8",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
