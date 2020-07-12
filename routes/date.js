@@ -6,7 +6,7 @@ router.get("/year", (req, res, next) => {
 });
 
 router.get("/month", (req, res, next) => {
-  res.json({ month: new Date().getMonth() + 1 });
+  res.json({ month: new Date().getMonth() });
 });
 
 router.get("/day", (req, res, next) => {

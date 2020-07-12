@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-router.all("/parrot", (req, res, next) => {
+router.all("/", (req, res, next) => {
   res.json({
     body: req.body,
     query: req.query,

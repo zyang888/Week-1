@@ -21,8 +21,7 @@ router.post("/product", (req, res, next) => {
     res.sendStatus(400).send("Product requires at least two values");
   } else {
     const product = req.body.reduce(
-      (runningProduct, num) => num * runningProduct,
-      0
+      (runningProduct, num) => num * runningProduct
     );
     res.json({ product });
   }
